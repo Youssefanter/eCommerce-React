@@ -1,3 +1,4 @@
+import { HeaderBasket } from "../../eCommerce";
 import { Badge, Container, Nav, Navbar } from "react-bootstrap";
 import styles from "./styles.module.css";
 
@@ -10,7 +11,7 @@ const Header = () => {
           <span>our </span>
           <Badge bg="info">Ecom</Badge>
         </h1>
-        {/*Basket*/}
+        <HeaderBasket/>
       </div>
       <Navbar
         expand="lg"
